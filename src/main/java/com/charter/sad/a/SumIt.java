@@ -1,7 +1,4 @@
-/*
- * copyright
- */
-package org.charter.sad.one;
+package com.charter.sad.a;
 
 public class SumIt {
 

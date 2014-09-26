@@ -1,6 +1,6 @@
-package org.charter.sad.one;
+package com.charter.sad.a;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class SumItTest {

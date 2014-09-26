@@ -1,4 +1,4 @@
-package org.charter.sad.two;
+package com.charter.sad.b;
 
 import java.util.Collection;
 

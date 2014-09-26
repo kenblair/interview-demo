@@ -1,9 +1,11 @@
-package org.charter.sad.two;
+package com.charter.sad.b;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
