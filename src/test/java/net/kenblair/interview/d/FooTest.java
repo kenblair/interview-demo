@@ -1,7 +1,7 @@
 /*
  * copyright
  */
-package com.charter.sad.d;
+package net.kenblair.interview.d;
 
 import java.util.Collections;
 import static org.junit.Assert.assertEquals;

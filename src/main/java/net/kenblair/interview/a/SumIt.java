@@ -1,4 +1,4 @@
-package com.charter.sad.a;
+package net.kenblair.interview.a;
 
 public class SumIt {
 

@@ -1,4 +1,4 @@
-package com.charter.sad.b;
+package net.kenblair.interview.b;
 
 import java.util.Collection;
 import java.util.HashSet;

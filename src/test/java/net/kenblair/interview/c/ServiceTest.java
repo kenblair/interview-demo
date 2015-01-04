@@ -1,4 +1,4 @@
-package com.charter.sad.c;
+package net.kenblair.interview.c;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
