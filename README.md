@@ -2,7 +2,7 @@ interview-demo
 ==============
 
 Java based coding examples for interviewing purposes.  Each package under `net.kenblair.interview` is a single
-self-contained coding demonstration.  Each demonstration is accompanied by one or more unit tests.1
+self-contained coding demonstration.  Each demonstration is accompanied by one or more unit tests.
 
 ## (a) SumIt
 
