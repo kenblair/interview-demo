@@ -1,13 +1,15 @@
 package net.kenblair.interview.b;
 
+import org.junit.Before;
+import org.junit.Test;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
-import org.junit.Before;
-import org.junit.Test;
 
 public class OperationsImplTest {
 
@@ -17,8 +19,8 @@ public class OperationsImplTest {
     @Before
     public void setUp() throws Exception {
 
-        c1 = new HashSet<String>();
-        c2 = new HashSet<String>();
+        c1 = new HashSet<>();
+        c2 = new HashSet<>();
 
         c1.add("A");
         c1.add("B");
@@ -36,7 +38,7 @@ public class OperationsImplTest {
     @Test
     public void testIntersect() throws Exception {
 
-        final Collection<String> result = new OperationsImpl().intersect(c1, c2);
+        final Collection<String> result = new Operations().intersect(c1, c2);
         assertNotNull(result);
         assertEquals(2, result.size());
         assertTrue(result.contains("B"));
@@ -46,7 +48,7 @@ public class OperationsImplTest {
     @Test
     public void testUnion() throws Exception {
 
-        final Collection<String> result = new OperationsImpl().union(c1, c2);
+        final Collection<String> result = new Operations().union(c1, c2);
         assertNotNull(result);
         assertEquals(8, result.size());
         assertTrue(result.contains("A"));

@@ -2,7 +2,7 @@ package net.kenblair.interview.b;
 
 import java.util.Collection;
 
-public interface Operations {
+public class Operations {
 
     /**
      * Build a collection that is the intersection of {@code c1} and {@code c2}.
@@ -11,7 +11,10 @@ public interface Operations {
      * @param c2 The second collection.
      * @return The intersection of the first and second collection.
      */
-    public Collection<String> intersect(Collection<String> c1, Collection<String> c2);
+    public Collection<String> intersect(Collection<String> c1, Collection<String> c2) {
+
+        return null;
+    }
 
     /**
      * Build a collection that is the union of {@code c1} and {@code c2}.
@@ -20,6 +23,9 @@ public interface Operations {
      * @param c2 The second collection.
      * @return The union of the first and second collection.
      */
-    public Collection<String> union(Collection<String> c1, Collection<String> c2);
+    public Collection<String> union(Collection<String> c1, Collection<String> c2) {
+
+        return null;
+    }
 
 }
